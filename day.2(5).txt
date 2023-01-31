@@ -1,0 +1,16 @@
+a="siva"
+print("y in a)
+op=false
+
+a="siva"
+print("y not in a)
+op=true
+
+
+a="siva"
+print("y not in a)
+print("y in a)
+print(a[3])
+op=true
+   false
+   a

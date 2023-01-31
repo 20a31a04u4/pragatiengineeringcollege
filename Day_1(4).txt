@@ -1,0 +1,17 @@
+a=int(input("enter no of lemons:"))
+d=int(input("enter no of lemons needed:"))
+if a-d>0:
+    {
+    print("you have",a-d, "lemons more")
+    }
+    
+elif a-d<0 :
+    {
+    print("its invalid","you need",d-a,"more")
+   
+    }
+else :
+    {
+        print("you have sufficient lemons")
+        }
+    

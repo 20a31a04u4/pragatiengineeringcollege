@@ -1,0 +1,79 @@
+x,y,z=input("enter a three value:").split('')
+
+#split method=for getting multiple input from user along with void space
+ 
+print("total no of students:",x)
+print("total no of boys:",y)
+print("total no of girls:",z)
+ 
+op=enter a three values:100 200 300
+total no of students:100
+total no of boys:200
+total no of girls:300
+
+if we give  
+x,y,z=input("enter a three value:").split('*') 
+print("total no of students:",x)
+print("total no of boys:",y)
+print("total no of girls:",z)
+
+0p=  op=enter a three values:100 200 300 * 200 300 400 * 300 400 500
+total no of students:100 200 300
+total no of boys:200 300 400
+total no of girls:300 400 500
+
+x,y,z=input("enter a three value:").split('&') 
+print("total no of students:",x)
+print("total no of boys:",y)
+print("total no of girls:",z)
+
+0p=  op=enter a three values:100 200 300 * 200 *& 300 400 * 300 & 400 500
+total no of students:100 200 300 * 200
+total no of boys:200 300 400 * 300
+total no of girls:400 500
+
+x,y,z=input("enter a three value:").split('0') 
+print("total no of students:",x)
+print("total no of boys:",y)
+print("total no of girls:",z)
+
+op=enter a three values:100 200 300
+gets error because it has more zeros
+
+
+x,y,z=input("enter a three value:").split('0') 
+print("total no of students:",x)
+print("total no of boys:",y)
+print("total no of girls:",z)
+
+op=enter a three values:1 0 2 0 3
+total no of students:1
+total no of boys:2
+total no of girls:3
+
+if we give 
+
+op=enter a three values:110002
+we get error because it cant segrigate
+
+what if 
+op=enter a three values:100
+total no of students:1
+total no of boys:
+total no of girls:
+we dont get the values of 2 and 3 because 0 is for segrigating 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

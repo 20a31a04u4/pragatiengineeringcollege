@@ -1,0 +1,37 @@
+a=5
+b=6
+if(a==b):
+    print("yes")
+else:
+    print("no")
+op=no
+
+if we give
+
+a=5
+b=5.0
+if(a==b):
+    print("yes")
+else:
+    print("no")
+op=yes
+#bcoz == compares only values
+
+a=5
+b=5.3
+if(a==b):
+    print("yes")
+else:
+    print("no")
+op=no
+
+a=5
+b=true
+if(1==b):
+    print("yes")
+else:
+    print("no")
+op=yes
+$coz boolean value of 1 is always true 
+
+

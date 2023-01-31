@@ -1,0 +1,23 @@
+email="siva@gmail.com"
+pwd=123456
+cemail=input("enter the email:")
+cpwd=input("enter the pwd:")
+
+if(email==cemail and pwd==cpwd):
+    print("login succesfully")
+else:
+    print("login failed")
+
+here evenif we give pwd and email equal to cpwd and cemail we get login failed beacause pwd is integer and cpwd is string
+so now we type
+
+
+email="siva@gmail.com"
+pwd=123456
+cemail=input("enter the email:")
+cpwd=int(input("enter the pwd:"))
+
+if(email==cemail and pwd==cpwd):
+    print("login succesfully")
+else:
+    print("login failed")
